@@ -29,9 +29,9 @@ FLAGS = flags.FLAGS
 # TO-DO replace this with label map
 
 def class_text_to_int(row_label):
-    if row_label =='lays':
+    if row_label =='snack bohong':
         return 1
-    elif row_label =='pocky':
+    elif row_label =='stick colek':
         return 2
     else:
         return none
@@ -87,7 +87,7 @@ def create_tf_example(group, path):
 
 def main(_):
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
-    path = os.path.join(os.getcwd(), 'image')
+    path = os.path.join(os.getcwd(), 'images')
     examples = pd.read_csv(FLAGS.csv_input)
     grouped = split(examples, 'filename')
     for group in grouped:
