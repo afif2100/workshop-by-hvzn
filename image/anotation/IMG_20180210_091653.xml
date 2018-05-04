@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>IMG_20180210_091653.jpg</filename>
+	<path>C:\Users\Heavnzihan\Documents\GitHub\workshop-by-hvzn\image\IMG_20180210_091653.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>576</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pocky</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>53</ymin>
+			<xmax>366</xmax>
+			<ymax>429</ymax>
+		</bndbox>
+	</object>
+</annotation>

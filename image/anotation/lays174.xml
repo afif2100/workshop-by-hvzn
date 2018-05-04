@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>lays174.jpg</filename>
+	<path>C:\Users\Heavnzihan\Documents\GitHub\workshop-by-hvzn\image\lays174.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>576</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lays</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>106</xmin>
+			<ymin>101</ymin>
+			<xmax>415</xmax>
+			<ymax>504</ymax>
+		</bndbox>
+	</object>
+</annotation>

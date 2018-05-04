@@ -1,0 +1,1 @@
+python train.py --logtostderr --train_dir=training/ --pipeline_config_path=data/ssd_mobilenet_v1_pets.config

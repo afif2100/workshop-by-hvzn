@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>poky (114).jpg</filename>
+	<path>C:\Users\Heavnzihan\Documents\GitHub\workshop-by-hvzn\image\poky (114).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pocky</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>432</xmin>
+			<ymin>185</ymin>
+			<xmax>879</xmax>
+			<ymax>590</ymax>
+		</bndbox>
+	</object>
+</annotation>

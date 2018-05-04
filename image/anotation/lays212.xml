@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>lays212.jpg</filename>
+	<path>C:\Users\Heavnzihan\Documents\GitHub\workshop-by-hvzn\image\lays212.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>576</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lays</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>172</ymin>
+			<xmax>541</xmax>
+			<ymax>768</ymax>
+		</bndbox>
+	</object>
+</annotation>
