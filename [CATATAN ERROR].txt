@@ -1,0 +1,14 @@
+JIKA MENGALAMI 
+TypeError: `pred` must be a Tensor, or a Python bool, or 1 or 0. Found instead: None
+
+PERBAIKI DI
+D:\object_detection\models\research\object_detection\models
+
+FILE
+ssd_mobilenet_v1_feature_extractor.py
+
+BARIS KE 109
+is_training=None
+
+GANTI KE
+is_training=True
