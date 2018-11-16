@@ -39,13 +39,13 @@ Example usage:
         --model_config_path=model_config.pbtxt \
         --train_config_path=train_config.pbtxt \
         --input_config_path=train_input_config.pbtxt
-		
+
     ./train \
         --logtostderr \
         --train_dir=path/to/train_dir \
         --model_config_path=model_config.pbtxt \
         --train_config_path=train_config.pbtxt \
-        --input_config_path=train_input_config.pbtxt	
+        --input_config_path=train_input_config.pbtxt
 """
 
 import functools
@@ -53,7 +53,7 @@ import json
 import os
 import tensorflow as tf
 
-from object_detection import trainer
+from object_detection.legacy import trainer
 from object_detection.builders import input_reader_builder
 from object_detection.builders import model_builder
 from object_detection.utils import config_util
